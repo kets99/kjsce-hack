@@ -1,3 +1,4 @@
+function sol() {
 if (typeof web3 !== 'undefined') {
     web3 = new Web3(web3.currentProvider);
     console.log("set")
@@ -180,3 +181,4 @@ console.log("HEY!");
 
 var name = CoursetroContract.methods.enroll.call;
 console.log(name);
+};
