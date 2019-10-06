@@ -1,9 +1,9 @@
 {
-  "name": "WillRunForFood",
-  "short_name": "WRFORFOOD",
+  "name": "Legs Miserables",
+  "short_name": "LegsMis",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "minimal-ui",
+  "display": "Standalone",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "",
