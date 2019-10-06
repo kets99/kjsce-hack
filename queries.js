@@ -16,10 +16,7 @@ firebase.initializeApp(firebaseConfig);
 var db = firebase.firestore() ; 
 
 
-
-function works() {
-
-
+ var worka=(req,callback)=>{
     
 console.log("hi");
 db.collection("users").add({
@@ -33,11 +30,8 @@ db.collection("users").add({
 .catch(function(error) {
     console.error("Error adding document: ", error);
 });
-
-}
-
       
-
+    }
 
 
 

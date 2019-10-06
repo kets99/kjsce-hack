@@ -39,8 +39,6 @@ var geocoder = new MapboxGeocoder({
     mapboxgl: mapboxgl
 });
 
-map.addControl(geocoder, 'top-left');
-
 
 
 
@@ -52,9 +50,14 @@ map.on('load', function() {
         var styleSpec = ev.result;
         var styleSpecBox = document.getElementById('json-response');
         var styleSpecText = JSON.stringify(styleSpec, null, 2);
-        var syntaxStyleSpecText = console.log(styleSpecText);
+        console.log(styleSpecText);
+        console.log("yes?"+styleSpecText.id);
         
-        styleSpecBox.innerHTML = syntaxStyleSpecText;
+
+
+
+
+        // styleSpecBox.innerHTML = syntaxStyleSpecText;
 
     });
 });
